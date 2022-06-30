@@ -22,7 +22,7 @@ ___
 ___
 1. All classes of the DAO layer are located in the folder `dao.impl` [dao](https://github.com/k1llzers/taxi-service/tree/main/src/main/java/taxi/dao/impl)
 2. All classes of the Service layer are located in the folder `service.impl` [service](https://github.com/k1llzers/taxi-service/tree/main/src/main/java/taxi/service/impl)
-3. All classes of the Controller layer are located in the folder `controller` [controller](https://github.com/k1llzers/taxi-service/tree/main/src/main/java/taxi/controller/impl)
+3. All classes of the Controller layer are located in the folder `controller` [controller](https://github.com/k1llzers/taxi-service/tree/main/src/main/java/taxi/controller)
 
 ## Technologies used:
 ___
