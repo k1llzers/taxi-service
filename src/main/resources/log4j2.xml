@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+<Appenders>
+    <File name="LogToFile" fileName="D:\Users\Sasha\IdeaProjects\taxi-service\logs\output.log">
+        <PatternLayout>
+            <Pattern>%d %p %c:%L %m%n</Pattern>
+        </PatternLayout>
+    </File>
+</Appenders>
+<Loggers>
+    <Logger name="taxi-service" level="info" additivity="false">
+        <AppenderRef ref="LogToFile"/>
+    </Logger>
+    <Root level="error">
+        <AppenderRef ref="LogToFile"/>
+    </Root>
+</Loggers>
+</Configuration>
