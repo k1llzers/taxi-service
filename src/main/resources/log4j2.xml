@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
 <Appenders>
-    <File name="LogToFile" fileName="D:\Users\Sasha\IdeaProjects\taxi-service\logs\output.log">
+    <File name="LogToFile" fileName="YOUR_FILE">
         <PatternLayout>
             <Pattern>%d %p %c:%L %m%n</Pattern>
         </PatternLayout>
